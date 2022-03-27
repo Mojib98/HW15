@@ -65,4 +65,16 @@ public class Account {
             return false;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "name='" + name + '\'' +
+                ", nationalId=" + nationalId +
+                ", batchCheck=" + batchCheck +
+                ", profit=" + profit +
+                ", typeAccount=" + typeAccount +
+                ", amount=" + amount +
+                '}';
+    }
 }
