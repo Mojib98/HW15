@@ -7,6 +7,7 @@ public class Store {
         Customer customer1 = new Customer("Ahmad");
         Customer customer2 = new Customer("Ahmad2");
         Customer customer3 = new Customer("Ahmad3");
+        Customer customer4 = new Customer("Ahmad4");
         Goods pen = new Goods("pen");
         pen.addCustomer(customer1);
         pen.addCustomer(customer2);
